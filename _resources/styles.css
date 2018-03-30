@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-weight: bold;
+	color: white;
+}
+
+nav h1 {
+	font-size: 70px;
+}
+
+nav {
+	background: url("../_resources/the-flatiron-building.png") center left;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 23px;
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.designed-NY {
+	background: url("../_resources/the-flatiron-building.png");
+	font-size: 23px;
+}
