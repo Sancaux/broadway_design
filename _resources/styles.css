@@ -6,14 +6,24 @@ body {
 h1 {
 	font-weight: bold;
 	color: white;
+	font-size: 32px;
+}
+
+nav {
+	background: url(../_resources/the-flatiron-building.png);
+	background-position: left;
+	background-repeat: no-repeat;
 }
 
 nav h1 {
 	font-size: 70px;
 }
 
-nav {
-	background: url("../_resources/the-flatiron-building.png") center left;
+nav a {
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	line-height: 2;
 }
 
 h2 {
@@ -29,7 +39,27 @@ ul {
 	list-style-type: none;
 }
 
-.designed-NY {
+footer {
+	background-color: dimgray;
+	font-size: 11px;
+	text-align: left;
+}
+
+footer p, a {
+	display: inline;
+	color: white;
+}
+
+span {
+	font-size: 11px;
+}
+
+.designed-NY h1 {
 	background: url("../_resources/the-flatiron-building.png");
+	background-position: left;
 	font-size: 23px;
+}
+
+.content h1 {
+	color: black;
 }
